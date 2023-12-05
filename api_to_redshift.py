@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-# List of coins
+# Lista de monedas que se van a obtener
 coins = ['BTC', 'ETH', 'USDT', 'BNB', 'XRP', 'SOL', 'USDC', 'ADA', 'DOGE', 'AVAX', 'LINK', 'MATIC', 'SHIB', 'LTC']
 
 def obtener_informacion_diaria(coin, year, month, day):
