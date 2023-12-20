@@ -39,7 +39,7 @@ def correr_query(query):
 if __name__ == "__main__":
     # Obtengo la fecha de ayer en UTC
     current_date_utc = datetime.now(timezone.utc)
-    yesterday_utc = current_date_utc - timedelta(days=2)
+    yesterday_utc = current_date_utc - timedelta(days=1)
     year, month, day = yesterday_utc.year, yesterday_utc.month, yesterday_utc.day
 
     # Borro tabla auxiliar
